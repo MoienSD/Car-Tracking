@@ -6,7 +6,7 @@ import math
 # Initialize Object Detection
 od = ObjectDetection()
 
-cap = cv2.VideoCapture("mashhad.mp4")
+cap = cv2.VideoCapture("Cars.mp4")
 
 while True:
     ret, frame = cap.read()
